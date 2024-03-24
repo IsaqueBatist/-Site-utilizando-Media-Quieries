@@ -26,19 +26,23 @@ header i {
   margin-top: 10px;
   padding: 5px;
 }
-header i:hover{
+
+header i:hover {
   background-color: white;
-  color:black;
+  color: black;
   cursor: pointer;
 }
-menu{
+
+menu {
   display: none;
 }
+
 menu a {
   display: block;
   background-color: #5e5e5e;
   text-align: center;
   text-decoration: none;
+  font-weight: bold;
   color: white;
   padding: 20px;
   margin: 1px;
@@ -47,6 +51,29 @@ menu a {
 a:hover {
   background-color: #808080;
 }
+
 body {
   background-color: #D3D3D3;
+}
+
+main h2 {
+  padding-bottom: 20px;
+}
+
+main {
+  background-color: white;
+  padding: 10px;
+  margin: auto;
+  margin-top: 10px;
+  width: 93vw;
+  border-radius: 10px;
+}
+
+main p {
+  text-indent: 20px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+nav{
+  display: none;
 }
