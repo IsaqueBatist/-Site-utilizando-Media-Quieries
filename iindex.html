@@ -6,27 +6,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="estilos/style.css" media="all">
   <link rel="stylesheet" href="estilos/medias.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Media Query</title>
 </head>
 
 <body>
   <header>
     <h1>Meu site</h1>
-    <nav>
-      <a href="#">Opção1</a>
-      <a href="#">Opção2</a>
-      <a href="#">Opção3</a>
-      <a href="#">Opção4</a>
-      <a href="#">Opção5</a>
-    </nav>
+    <i onclick="clickMenu()"><span class="material-icons md-48">menu</span></i>
   </header>
+  <menu id="itens">
+    <a href="">Opção1</a>
+    <a href="">Opção2</a>
+    <a href="">Opção3</a>
+    <a href="">Opção4</a>
+    <a href="">Opção5</a>
+  </menu>
   <main>
     <h2>Testando Media Queries</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab soluta eos aliquid amet molestiae, dolores atque sunt possimus ullam laborum ipsum omnis dignissimos nesciunt voluptatibus reiciendis debitis. Sint, tempora magnam?</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab soluta eos aliquid amet molestiae, dolores atque sunt possimus ullam laborum ipsum omnis dignissimos nesciunt voluptatibus reiciendis debitis. Sint, tempora magnam?</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab soluta eos aliquid amet molestiae, dolores atque sunt possimus ullam laborum ipsum omnis dignissimos nesciunt voluptatibus reiciendis debitis. Sint, tempora magnam?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab soluta eos aliquid amet molestiae, dolores atque sunt
+      possimus ullam laborum ipsum omnis dignissimos nesciunt voluptatibus reiciendis debitis. Sint, tempora magnam?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab soluta eos aliquid amet molestiae, dolores atque sunt
+      possimus ullam laborum ipsum omnis dignissimos nesciunt voluptatibus reiciendis debitis. Sint, tempora magnam?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab soluta eos aliquid amet molestiae, dolores atque sunt
+      possimus ullam laborum ipsum omnis dignissimos nesciunt voluptatibus reiciendis debitis. Sint, tempora magnam?</p>
   </main>
-
+  <script>
+    function clickMenu() {
+      if (itens.style.display == 'block'){
+        itens.style.display = 'none'
+      } else{
+        itens.style.display = 'block'
+      }
+    }
+  </script>
 </body>
 
 </html>
