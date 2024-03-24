@@ -1,1 +1,25 @@
 @charset "UTF-8";
+/*Tablet*/
+@media screen and (min-width:768px) and (max-width:992px) {
+  menu#itens{
+    display: none;
+  }
+  header i{
+    display: none;
+  }
+  header nav{
+    display: block;
+    padding-top: 10px;
+    margin-left: -20px;
+    margin-bottom: -10px;
+  }
+  header nav a{
+    color: white;
+    text-decoration: none;
+    background-color: #575757;
+    padding: 10px;
+  }
+  main{
+    max-width: 800px;
+  }
+}
