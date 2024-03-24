@@ -5,7 +5,9 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+hr{
+  display: none;
+}
 header {
   background-color: #949494;
   padding: 20px;
@@ -14,7 +16,7 @@ header {
 header h1 {
   text-align: center;
   margin-bottom: 10px;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 header i {
@@ -42,10 +44,9 @@ menu a {
   background-color: #5e5e5e;
   text-align: center;
   text-decoration: none;
-  font-weight: bold;
   color: white;
-  padding: 20px;
-  margin: 1px;
+  padding: 10px;
+  border: 0.1px solid rgba(211, 211, 211, 0.556);
 }
 
 a:hover {
@@ -65,7 +66,7 @@ main {
   padding: 10px;
   margin: auto;
   margin-top: 10px;
-  width: 93vw;
+  width: 92vw;
   border-radius: 10px;
 }
 
@@ -74,6 +75,7 @@ main p {
   padding-bottom: 20px;
   text-align: justify;
 }
-nav{
+
+nav {
   display: none;
 }
